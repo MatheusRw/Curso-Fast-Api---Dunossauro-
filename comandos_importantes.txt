@@ -1,0 +1,5 @@
+# O projeto começa rodando o poetry shell 
+poetry shell
+
+#depois para inciar a gente roda
+task run
