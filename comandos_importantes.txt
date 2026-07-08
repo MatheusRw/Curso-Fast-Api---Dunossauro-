@@ -12,3 +12,5 @@ para testar no modo interativo do python
 >>> User( username='matheus', password='senha', email='teste@teste.com',created_at=datetime.now())
 
 verificar as bibliotecas instaladar com poetry principalmente a settings
+
+alembic revision --autogenerate -m "create users table" <- comando para criar versionamentos do banco de dados 
