@@ -9,4 +9,6 @@ poetry add nome-da-biblioteca
 
 para testar no modo interativo do python
  python -i models.py
->>> User( username='matheus', password='senha', email='teste@teste.com',created_at=datetime.now())    
+>>> User( username='matheus', password='senha', email='teste@teste.com',created_at=datetime.now())
+
+verificar as bibliotecas instaladar com poetry principalmente a settings
