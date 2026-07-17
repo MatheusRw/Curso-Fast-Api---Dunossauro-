@@ -3,3 +3,14 @@ poetry shell
 
 #depois para inciar a gente roda
 task run
+
+para instalar uma biblioteca nova usando o poetry 
+poetry add nome-da-biblioteca
+
+para testar no modo interativo do python
+ python -i models.py
+>>> User( username='matheus', password='senha', email='teste@teste.com',created_at=datetime.now())
+
+verificar as bibliotecas instaladar com poetry principalmente a settings
+
+alembic revision --autogenerate -m "create users table" <- comando para criar versionamentos do banco de dados 
